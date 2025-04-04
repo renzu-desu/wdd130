@@ -1,0 +1,93 @@
+:root {
+  --first-premcolor: #0b3b66;
+  --second-premcolor: #f4d35e;
+  --first-accentlor: #8ecae6;
+  --second-accentlor: #faf0ca;
+  --size-16px: 1rem;
+  --size-24px: 1.5rem;
+  --size-32px: 2rem;
+}
+
+body {
+  font-size: var(--size-16px);
+  font-family: "Golos Text", sans-serif;
+}
+
+* {
+  margin: var(--size-16px);
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.logo {
+  float: left;
+  position: relative;
+  width: 90px;
+  height: auto;
+  bottom: 35px;
+  right: 20px;
+  margin: auto;
+}
+
+nav {
+  background-color: var(--first-premcolor);
+  padding: 45px;
+}
+
+nav a {
+  color: var(--second-accentlor);
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline;
+}
+
+main {
+  max-width: 100%;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero {
+  display: block;
+  width: 100%;
+  height: 50rem;
+  object-fit: cover;
+  object-position: center;
+  right: var(--size-16px);
+}
+
+h1 {
+  position: absolute;
+  top: 200px;
+  color: var(--second-premcolor);
+  letter-spacing: 10px;
+}
+
+article {
+  position: absolute;
+  background-color: rgba(250, 240, 202, 80%);
+  bottom: 5px;
+  left: 5px;
+}
+
+article img {
+  width: 200px;
+  height: auto;
+  border: 2px solid var(--first-premcolor);
+  padding: 2px;
+  float: right;
+  /* margin: 0 0 1rem 1rem; */
+}
+
+article p {
+  font-size: var(--size-16px);
+  font-family: "Golos Text", sans-serif;
+  color: #000;
+}
+
+footer img {
+  width: 100px;
+  height: auto;
+}
