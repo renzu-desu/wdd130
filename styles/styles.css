@@ -1,3 +1,9 @@
+:root {
+    --heading-background-color: #123F36;
+    --primary-text-color: #2A6B5C;
+    --secondary-text-color: #E8DCC4;
+}
+
 main {
     max-width: 1200px;
 }
@@ -11,7 +17,8 @@ main img {
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
+    color: var(--secondary-text-color);
     padding: 10px;
 }
 
@@ -22,7 +29,7 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-text-color);
 }
 
 p {
@@ -34,8 +41,8 @@ aside {
     margin: 1rem;
     border: 1px solid rgb(0 0 0/ 0.2);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: var(--heading-background-color);
+    color: var(--secondary-text-color);
     text-align: center;
 }
 
