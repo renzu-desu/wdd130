@@ -1,12 +1,19 @@
 :root {
+    --primary-font-size: 24px;
     --heading-background-color: #123F36;
     --primary-text-color: #2A6B5C;
     --secondary-text-color: #E8DCC4;
 }
 
-main {
-    max-width: 1200px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* main {
+    max-width: 1200px;
+} */
 
 main img {
     width: 150px;
@@ -14,6 +21,7 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
 }
 
 nav {
@@ -46,6 +54,13 @@ aside {
     text-align: center;
 }
 
+aside h2 {
+    position: relative;
+    top: 30px;
+    left: 0px;
+    font-size: 1rem;
+}
+
 aside img {
     width: 200px;
     height: auto;
@@ -55,4 +70,13 @@ footer {
     margin-top: 2rem;
     border-top: 2px solid rgb(0 0 0/ 0.2);
     text-align: center;
+}
+
+/* Class Selector */
+.box {
+    margin: 1rem;
+    border: 1px solid var(--secondary-text-color);
+    padding: 1rem;
+    background-color: var(--secondary-text-color);
+    color: var(--heading-background-color);
 }
